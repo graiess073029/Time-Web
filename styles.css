@@ -1,0 +1,48 @@
+html{height: 100%;}
+body{height: 100%;background-color: #000 !important;}
+
+.clock{display: flex;flex-direction: row; gap: 15px;justify-content: center;margin-top: 12%;}
+.clock-buttons{display: flex;flex-direction: row; gap: 15px;justify-content: center;margin-top: 6%;}
+
+
+.hours{
+    background-color: red;color: white;
+    font-size: 60px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;letter-spacing: 7px;
+    width: max-content;border-radius: 20px 20px 20px 20px;text-align: center;height: min-content;
+    padding: 1.5%;}
+
+.hours p{margin: 0%;}
+
+.secondes{
+    background-color: blue;color: white;
+    font-size: 60px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;letter-spacing: 7px;
+    width: max-content;border-radius: 20px 20px 20px 20px;text-align: center;height: min-content;
+    padding: 1.5%;}
+
+.secondes p{margin: 0%;}
+
+.minutes{
+    background-color: rgb(255, 200, 0);color: white;
+    font-size: 60px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;letter-spacing: 7px;
+    width: max-content;border-radius: 20px 20px 20px 20px;text-align: center;height: min-content;
+    padding: 1.5%;}
+
+.minutes p{margin: 0%;}
+
+.pm-am{
+    background-color: rgb(82, 218, 130);color: white;
+    font-size: 60px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;letter-spacing: 7px;
+    width: max-content;border-radius: 20px 20px 20px 20px;text-align: center;height: min-content;
+    padding: 1.5%;
+    display: none;
+}
+
+.pm-am p{margin: 0%;}
+
+
+.clock-info{width: min-content;display: flex;flex-direction: column;justify-content: flex-start;color: white  ;margin-top: 3%;background-color: rgb(177, 54, 1);padding: 1% 2% 1% 2%;margin-left: 40%;border-radius: 10px 10px 10px 10px;gap: 15px;}
+.clock-info *{margin: 0%;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.info{display: flex;flex-direction: row;gap: 10px;letter-spacing: 2px;}
+.clock-buttons button{width: 15%;height: 50px; border-radius: 20px 20px 20px 20px;outline: none;border: 0cm;font-size: larger;background-color:lightslategray;color:white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+

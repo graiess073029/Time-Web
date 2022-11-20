@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+
+    <title>Digital Clock</title>
+</head>
+<body>
+        <div class="clock">
+    
+            <div class="minutes">
+                <p class="minute" id="minute">
+                    00
+                </p>
+
+            </div>
+    
+            <div class="secondes">
+                <p class="seconde" id="seconde">
+                    00
+                </p>
+            </div>
+
+            <div class="millisecondes">
+                <p class="seconde" id="millisecondes">
+                    00
+                </p>
+            </div>
+
+        </div>
+
+
+
+        <div class="clock-extra">
+            <div class="clock-buttons">
+                <button class="start" onclick="before_start()">Start</button>
+                <button class="stop" onclick="stop()">Stop</button>
+                <button class="reset" onclick="reset()">Reset</button>
+            </div>
+
+
+            <div class="info">
+
+                <div class="tour-buttons">
+                    <button type="button" id="tour" onclick="tour_create()">
+                        Tour
+                    </button>
+    
+                    <button type="button" id="tour" onclick="delete_last()">
+                        Delete
+                    </button>
+    
+                    <button id="tour" type="button" onclick="clear_console()">
+                        Clear
+                    </button>
+                </div>
+
+
+
+                <div class="clock-info">
+                    <p id="day">
+
+                    </p>
+        
+                    <p id="date">
+        
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="tours" id="tours">
+
+        </div>
+        
+        <script src="js.js" onload="clock_info()"></script>
+
+</body>
+</html>
